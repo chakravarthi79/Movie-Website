@@ -17,7 +17,7 @@ const App = () => {
         
 
         {/* <Route path={'/'}  element = {<Navigate to = {'/home'}/> } /> */}
-        <Route index path={'/home'} element ={<Home/>}/>
+        <Route  path={'/'} element ={<Home/>}/>
         <Route path={'/popular'} element ={<Popular/>}/>
         <Route path={'/toprated'} element ={<TopRated/>}/>
         <Route path={'/upcoming'} element ={<UpComing/>}/>
