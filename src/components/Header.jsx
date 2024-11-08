@@ -9,7 +9,7 @@ const Header = () => {
     <>
       <nav className={` navbar navbar-expand-lg navbar-light bg-light ${isDarkModeEnabled?'bg-dark':'bg-white'}`}>
         <div className="container-fluid">
-          <a className={`navbar-brand ${isDarkModeEnabled?'text-white':'text-dark'}`} href="#">
+          <a className={`navbar-brand ${isDarkModeEnabled?'text-white':'text-dark'}`} href="/">
             Movie App
           </a>
           <button
@@ -26,7 +26,7 @@ const Header = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-              <Link to={`home`} className={`nav-link ${isDarkModeEnabled?'text-white':'text-dark'}`}>
+              <Link to={`/`} className={`nav-link ${isDarkModeEnabled?'text-white':'text-dark'}`}>
                   home
                 </Link>
 
