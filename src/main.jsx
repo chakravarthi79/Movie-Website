@@ -9,12 +9,12 @@ import ThemeContext from './context/ThemeContext.jsx';
 import './index.css'
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
+  <>
     
     <BrowserRouter>
     <ThemeContext>
     <App />
     </ThemeContext>
     </BrowserRouter>
-  </StrictMode>,
+  </>,
 )
