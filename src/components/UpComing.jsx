@@ -13,7 +13,7 @@ const UpComing = () => {
 
 
   const baseUrl =
-    "https://api.themoviedb.org/3/discover/movie?include_adult=false&include_video=false&language=en-US&page=3&sort_by=popularity.desc&with_release_type=1|2&release_date.gte={min_date}&release_date.lte={max_date}";
+    "https://api.themoviedb.org/3/movie/upcoming";
   const options = {
     method: "GET",
     headers: {

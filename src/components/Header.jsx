@@ -27,23 +27,23 @@ const Header = () => {
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
               <Link to={`/`} className={`nav-link ${isDarkModeEnabled?'text-white':'text-dark'}`}>
-                  home
+                  Home
                 </Link>
 
               </li>
               <li className="nav-item">
                 <Link to={`popular`} className={`nav-link ${isDarkModeEnabled?'text-white':'text-dark'}`}>
-                  popular
+                  Popular
                 </Link>
               </li>
               <li className="nav-item">
                 <Link to={`toprated`} className={`nav-link ${isDarkModeEnabled?'text-white':'text-dark'}`}>
-                  toprated
+                  Toprated
                 </Link>
               </li>
               <li className="nav-item">
                 <Link to={`upcoming`} className={`nav-link ${isDarkModeEnabled?'text-white':'text-dark'}`}>
-                  upcoming
+                  Upcoming
                 </Link>
               </li>
               <li className="nav-item">

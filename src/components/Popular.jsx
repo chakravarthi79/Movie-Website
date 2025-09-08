@@ -12,7 +12,7 @@ const Popular = () => {
   const { isDarkModeEnabled, toggleItem } = useContext(theme);
 
   const baseUrl =
-    "https://api.themoviedb.org/3/discover/movie?include_adult=false&include_video=false&language=en-US&page=2&sort_by=popularity.desc&without_genres=99,10755&vote_count.gte=200";
+    "https://api.themoviedb.org/3/movie/popular";
   const options = {
     method: "GET",
     headers: {

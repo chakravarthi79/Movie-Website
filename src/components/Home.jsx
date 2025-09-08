@@ -1,5 +1,5 @@
 import axios from "axios";
-import { useEffect, useState,useContext} from "react";
+import { useEffect, useState, useContext} from "react";
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../../node_modules/bootstrap/dist/js/bootstrap.bundle";
 import { Link } from "react-router-dom";
@@ -12,7 +12,7 @@ const Home = () => {
   const {isDarkModeEnabled,toggleItem} = useContext(theme);
 
   const baseUrl =
-    "https://api.themoviedb.org/3/movie/popular?language=en-US&page=1";
+    "https://api.themoviedb.org/3/movie/now_playing";
   const options = {
     method: "GET",
     headers: {
